@@ -9,7 +9,7 @@ const start = async () => {
 
   app.listen(PORT, () => {
     console.log(
-      `❤️‍🩹 Server is running at ${PORT} in ${process.env.NODE_ENV} mode`,
+      `Server is running at ${PORT} ❤️‍🩹 \nMODE: ${process.env.NODE_ENV} mode`,
     );
   });
 };
